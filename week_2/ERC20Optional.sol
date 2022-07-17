@@ -22,7 +22,7 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint value);
 }
 
-contract ERC20_Optional is IERC20 {
+contract ERC20Optional is IERC20 {
 
     string public name = "Metana ERC20 Token";
     string public symbol = "META";
